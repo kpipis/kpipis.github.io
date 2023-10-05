@@ -1,9 +1,83 @@
+<!DOCTYPE html>
+
 <html>
- 
-<body>
-  <h1>KONSTANTINOS PIPIS</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+  <head>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title> VC Enterprise Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+    <header class="main_title">
+      <h1> The VC Experience</h1>
+      <nav class="navbar">
+          <p><a href="#mission">Mission Statement</a></p>
+          <p><a href="#portfolio">Portfolio</a></p>
+          <p><a href="#team">Investment Team</a></p>
+      </nav>
+    </header>
+    <main>
+      <div id="mission">
+        <div class="content">
+          <h2>The VC Experience</h2>
+          <p>Our fund is commited to the furthering entrereneurs in the mobility sector</p>
+        </div>
+      </div>
+      <div id="portfolio">
+        <h2>Our Mobility Portfolio</h2>
+        <p>Impacting diverse sectors of mobility to better the human experience and the world we inhabit</p>
+        <div class="imagesContent">
+          <div class="images">
+            <img src="hangar.jpg" alt="Airport hangar">
+            <span>AeroArgonauts</span>
+            <!-- <p>AeroArgonauts</p> -->
+          </div>
+          <div class="images">
+            <img src="dashboard.webp" alt="cockpit">
+            <span>AutoBueno</span>
+          </div>
+          <div class="images">
+            <img src="blurred-lights.webp" alt="highway">
+            <span>LaneChatter</span>
+          </div>
+          <div class="images">
+            <img src="tires.jpg" alt="tyres">
+            <span>TigerTreads</span>
+          </div>
+          <div class="images">
+            <img src="truck.webp" alt="van">
+            <span>ValetToday</span>
+          </div>
+        </div> 
+      </div>
+      <div id="team-container">
+        <h2>Our Team</h2>
+        <div id="team">
+          <div class="employee">
+            <img src="employee-one.jpg" alt="Lisa Fischer">
+            <p><strong>Lisa Fischer</strong></p>
+            <p>C.E.O. - Founder and Principal Investor</p>
+          </div>
+          <div class="employee">
+            <img src="employee-two.webp" alt="Alex Lasker">
+            <p><strong>Alex Lasker</strong></p>
+            <p>Partner - Research & Development</p>
+          </div>
+          <div class="employee">
+            <img src="employee-three.jpg" alt="Omar Carlsen">
+            <p><strong>Omar Carlsen</strong></p>
+            <p>Parnter - Partnerships & Marketing</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h2>The VC Experience</h2>
+      <p>introduction@vcexperience.investors <br>555-867-5309</p>
+      <p>copyright VC Enterprises 2020</p>
+    </footer>
+  </body>
 </html>
